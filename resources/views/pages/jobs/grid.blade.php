@@ -1,0 +1,154 @@
+<x-layouts.app>
+    <div class="page-content">
+        <!-- Banner  -->
+        <div class="dz-bnr-inr dz-bnr-inr-sm text-center overlay-primary-dark" style="background-image: url(assets/images/banner/bnr1.jpg);">
+            <div class="container">
+                <div class="dz-bnr-inr-entry">
+                    <h1>Jobs Grid</h1>
+                    <!-- Breadcrumb Row -->
+                    <nav aria-label="breadcrumb" class="breadcrumb-row m-t15">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Jobs Grid</li>
+                        </ul>
+                    </nav>
+                    <!-- Breadcrumb Row End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner End -->
+        <section class="content-inner overflow-hidden position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.0s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic1.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">Need Senior Stock Technician</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.2s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic2.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">Senior Web Designer , Developer</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.6s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic3.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">IT Department Manager</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.0s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic4.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">Recreation & Fitness Worker</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.2s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic5.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">Senior Stock Technician</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="job-bx style-1 wow fadeInUp" data-wow-delay="1.6s">
+                            <div class="d-flex m-b25 justify-content-between">
+                                <span class="media">
+                                    <img src="{{ asset('assets/images/company-logo/pic6.png') }}" alt="image">
+                                </span>
+                                <ul>
+                                    <li><a class="job-day" href="javascript:void(0);">1 Day Ago</a></li>
+                                    <li><a class="job-time" href="javascript:void(0);">Full Time</a></li>
+                                </ul>
+                            </div>
+                            <div class="job-contant">
+                                <h6 class="job-title "><a href="job-detail.html">Need Senior Stock Technician</a></h6>
+                                <p class="text">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            </div>
+                            <div class="jobs-amount">
+                                <h6 class="amount">$3500<span>/ month</span></h6>
+                                <a class="btn btn-primary" href="job-detail.html"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</x-layouts.app>
